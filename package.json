@@ -1,0 +1,48 @@
+{
+  "name": "broccoli-es7-decorator-jshint-guards",
+  "description": "Surround ES7 decorator syntax with jshint comment guards so it won't complain about syntax it doesn't understand",
+  "version": "0.0.1",
+  "homepage": "http://github.com/machty/broccoli-es7-decorator-jshint-guards",
+  "author": {
+    "name": "machty",
+    "url": "http://machty.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/machty/broccoli-es7-decorator-jshint-guards"
+  },
+  "bugs": {
+    "url": "http://github.com/machty/broccoli-es7-decorator-jshint-guards/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/machty/broccoli-es7-decorator-jshint-guards/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "broccoli build temp && mocha"
+  },
+  "dependencies": {
+    "broccoli-replace": "^0.3.1"
+  },
+  "devDependencies": {
+    "broccoli": "^0.16.3",
+    "mocha": "^2.2.0",
+    "rimraf": "^2.2.0"
+  },
+  "keywords": [
+    "es7 decorator",
+    "jshint",
+    "decorator",
+    "decorator jshint"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE-MIT"
+  ]
+}
